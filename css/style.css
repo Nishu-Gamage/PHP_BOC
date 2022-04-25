@@ -1,0 +1,36 @@
+a{
+    text-decoration: none;
+}
+
+.top{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 2px;
+    height: 90px;
+} 
+div.top div.Img img{
+    height: 60px;
+    float: left;
+    margin-top: 10px;
+}
+
+div.top div.language ul{
+    list-style: none;
+    float: right;
+}
+
+div.top div.language ul li{
+    display: inline;
+}
+
+div.top div.language ul li a{
+    padding-right: 5px;
+    color: #1f1f1f;
+    font-size: 12px;
+}
+
+div.top div.language ul li a:hover{
+    color: orange;
+    text-decoration: underline;
+    
+}
