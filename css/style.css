@@ -2,35 +2,190 @@ a{
     text-decoration: none;
 }
 
-.top{
-    width: 1140px;
-    margin: 0 auto;
-    padding: 2px;
-    height: 90px;
-} 
-div.top div.Img img{
+/* header-top div */
+.header-top{
+    padding: 0.5rem 0;
+    background: #fff;
+}
+/* container */
+.header-top .container{
+    position: relative;
+    width: 750px;    
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* lang-menu div */
+.header-top .lang-menu{
+    position: absolute;
+    right: 15px;
+    width: 100%;
+    text-align: right;
+    z-index: 99;
+}
+.header-top .lang-menu ul{
+    line-height: 1;
+    list-style: none;
+    float: right;
+}
+.header-top .lang-menu ul li{
+    display: inline;
+}
+.header-top .lang-menu ul li a{
+    padding-right: 5px;
+    color: #1f1f1f;
+    font-size: 12px;
+}
+.header-top .lang-menu ul li a:hover{
+    color: orange;
+    text-decoration: underline; 
+}
+/* row div */
+.header-top .row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+/* Img div */
+.Img{
     height: 60px;
     float: left;
     margin-top: 10px;
 }
-
-div.top div.language ul{
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+.Img img{
+    font-size: .7rem;
+    color: #1f1f1f;
+    font-style: italic;
+    vertical-align: middle;
+    padding: 0;
+}
+/* find-us-on (UL) */
+.find-us-on{
+    /* background-color: #06ed53; */
+    text-align: right;
+    margin-top: 36px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
     list-style: none;
+    box-sizing: border-box;
+}
+.find-us-on li{
+    display: inline;
+}
+.find-us-on li a i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: .7rem;
+    color: #fff;
+    text-align: center;
+}
+.find-us-on li a i.fa-facebook{
+    background-color: #3f4da1;
+}
+.find-us-on li a i.fa-twitter{
+    background: #57a0d7;
+}
+.find-us-on li a i.fa-linkedin{
+    background: #57a0d7;
+}
+.find-us-on li a i.fa-youtube{
+    background: #d74527;
+}
+/* top-menu div */
+.top-menu{
+    text-align: right;
+    margin-top: 38px;
     float: right;
 }
+.top-menu ul{
+    line-height: 1;
+    list-style: none;
+}
+.top-menu ul li{
+    display: inline;
+}
+.top-menu li a{
+    line-height: 1.5;
+    color: #111;
+    text-decoration: none;
+}
 
+
+
+
+
+
+
+
+
+/* Img div
+div.top div.Img img{
+    height: 60px;
+    float: left;
+    margin-top: 10px;
+} */
+
+/* language div */
+/* div.top div.language ul{
+    list-style: none;
+    float: right;
+    background-color: rgb(60, 255, 0);
+}
 div.top div.language ul li{
     display: inline;
 }
-
 div.top div.language ul li a{
     padding-right: 5px;
     color: #1f1f1f;
     font-size: 12px;
 }
-
 div.top div.language ul li a:hover{
     color: orange;
-    text-decoration: underline;
-    
+    text-decoration: underline; 
+} */
+
+
+/* find-us-on div */
+
+/* div.top div.find-us-on{
+    text-align: right;
+    margin-top: 36px;
+    float: right;
 }
+div.top div.find-us-on ul{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: .7rem;
+} */
+/* top-menu div */
+/* div.top div.top-menu{
+    float: right;
+    background-color: aqua;
+}
+div.top div.top-menu ul{
+    line-height: 1;
+}
+div.top div.top-menu ul li{
+    list-style: none;
+    font-size: 14px;
+}
+div.top div.top-menu ul li{
+    display: inline;
+    font-family: sans-serif;
+}
+div.top div.top-menu ul li a{  
+    line-height: 1.5;
+    color: #111;
+} */
