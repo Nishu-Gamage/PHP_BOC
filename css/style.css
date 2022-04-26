@@ -63,10 +63,20 @@ a{
     vertical-align: middle;
     padding: 0;
 }
+
+.col-xs-12{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
 /* find-us-on (UL) */
 .find-us-on{
     /* background-color: #06ed53; */
-    text-align: right;
+    text-align: center;
+    margin-left: 1rem;
     margin-top: 36px;
     float: right;
     margin: 0;
@@ -76,6 +86,7 @@ a{
     box-sizing: border-box;
 }
 .find-us-on li{
+    margin-bottom: 10px;
     display: inline;
 }
 .find-us-on li a i {
