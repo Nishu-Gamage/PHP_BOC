@@ -1,18 +1,23 @@
 a{
     text-decoration: none;
 }
+/*----------------------- 
+      Top header 
+-----------------------*/
 .top{
-    width: 1120px;
+    width: 1100px;
     margin: 0 auto;
     padding: 2px;
-    height: 90px;
+    height: 80px;
+    margin-top: -10px;
+    margin-bottom: -15px;
 } 
 div.top div.Img img{
     height: 60px;
     float: left;
     margin-top: 10px;
 }
-
+/* language */
 div.top div.language ul{
     list-style: none;
     float: right;
@@ -25,7 +30,6 @@ div.top div.language ul li a{
     color: #1f1f1f;
     font-size: 12px;
 }
-
 div.top div.language ul li a i{
     font-size: 26px;
     padding-right: 5px;
@@ -34,18 +38,10 @@ div.top div.language ul li a:hover{
     color: orange;
     text-decoration: underline;
 }
-.fa-facebook-square{
-    color: blue;
-}
-.fa-twitter-square{
-    color: cornflowerblue;
-}
-.fa-linkedin{
-    color: cornflowerblue;
-}
-.fa-youtube{
-    color: red;
-}
+.fa-facebook-square{color: blue;}
+.fa-twitter-square{color: cornflowerblue;}
+.fa-linkedin{color: cornflowerblue;}
+.fa-youtube{color: red;}
 div.top .top-link ul{
     list-style: none;
     float: right;
@@ -57,20 +53,23 @@ div.top .top-link ul{
 div.top .top-link ul li{
     display: inline;
 }
-
 div.top .top-link ul li a{
-    margin-left: 10px;
+    margin-left: 20px;
+    color: #000;
 }
-
-/* navbar-header */
+div.top div.top-link ul li a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+/*----------------------- 
+      Navbar header 
+-----------------------*/
 div.navbar-header{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.881);
     height: 50px;
     width: 100%;
 }
-div.navbar-header div.navbar{
-    color:white;
-}
+div.navbar-header div.navbar{ color:white;}
 div.navbar-header div.navbar ul{
     margin-left: 140px;
 }
@@ -83,9 +82,13 @@ div.navbar-header div.navbar ul li{
 div.navbar-header div.navbar ul li a{
     padding-right: 20px;
     font-size: 14px;
+    color: white;
+    height: 70px;
 }
 
-/* navbar-header2 */
+/*----------------------- 
+     Navbar header 2
+-----------------------*/
 div.navbar-header2{
     background-color: #ffde00;
     height: 50px;
@@ -105,7 +108,9 @@ div.navbar-header2 button{
     border-radius: 4px;
 }
 
-/* home-banner */
+/*----------------------- 
+      Home banner
+-----------------------*/
 div.home-banner{
     height: 100px;
 }
@@ -119,7 +124,7 @@ div.home-banner div.Global-Presence ul li{
     list-style: none;
     float: left;
 }
-div.home-banner div.Global-Presence ul li a{
+div.home-banner div.Global-Presence ul li a.our{
     text-align: center;
     font-size: 16px;
     margin-top: 0;
@@ -129,6 +134,12 @@ div.home-banner div.Global-Presence ul li a{
 }
 div.home-banner div.Global-Presence ul li img.country{
     margin-left: 80px;
+}
+div.home-banner div.Global-Presence ul li img.country:hover{
+   box-shadow: 0 0 0 3px #ffde00;
+}
+div.home-banner div.Global-Presence ul li a span:hover{
+    text-decoration: underline;
 }
 div.home-banner div.Global-Presence ul li span{
     color: #000;
@@ -141,82 +152,188 @@ div.home-banner div.Global-Presence ul li img.offers{
     margin-left: 20px;
 }
 
-/* main-container */
+/*----------------------- 
+    Main-container 
+-----------------------*/
 div.main-container{
-    background-color: white;
-    height: 300px;
+    width: 1110px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
+/* home-slider */
+div.main-container div.home-slider{
+    width: 800px;
+}
+div.main-container div.home-slider img{
+    width: 820px;
+}
+/* help-links */
+div.main-container div.help-links{
+    width: 300px;
+}
+div.main-container div.help-links ul{
+    font-size: 14px;
+}
+div.main-container div.help-links ul li:hover{
+    background: rgb(94, 94, 94);
+    color: orange;
 
+}
+div.main-container div.help-links ul li{
+    list-style: none;
+    height: 35px;
+}
+div.main-container div.help-links ul li{
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    display: block;
+    color: #333;
+    min-height: 1rem;
+    line-height: 1.4;   
+    height: 35px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+div.main-container div.help-links a{
+    vertical-align: text-bottom;
+}
+div.main-container div.help-links span{ 
+    float: right; 
+    margin-right: 15px;
+}
+div.main-container div.help-links ul li span i{
+    font-size: 27px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+ }
+ div.main-container div.help-links ul li span img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+ }
 
-
-/* boc-support */
-
+/*----------------------- 
+      BOC support
+-----------------------*/
 div.boc-support {
-margin-bottom: 10px;
-width: 1180px;
-margin: 0 auto;
+    margin-bottom: 10px;
+    margin: 0 auto;
 }
 div.boc-support ul {
     list-style: none;
-    
+    width: 1120px;
+    margin: 0 auto;
 }
 div.boc-support ul li{
-    margin-right: 10px;
+    margin-left: -20px;
     display: inline;
-
 }
 div.boc-support ul li img{ 
-    width: 270px;
+    width: 260px;
+    margin-right: 35px;
     height: 180px;
 }
+div.boc-support ul li div.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 190px;
+    width: 260px;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0,0,0,0.7);    
+    transition: all .3s ease;
+}
+div.boc-support ul li:hover div.overlay {
+    opacity: 1;
+}
+.digital { 
+    position: relative;
+}
+.text {
+    color: white;
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 1.5;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+div.text ul {    
+    width: 200px;
+}
+div.text ul li{    
+    display: list-item;
+}
+div.text ul li a{ 
+    color: white;
+}
+div.text ul li a:hover{
+    color: yellow;
+}
 
-
-/* Contact */
+/*----------------------- 
+       Contact
+-----------------------*/
 div.Contact{
-    width: 1180px;
-    height: 80px;
+    height: 90px;
     margin: 0 auto;
-    /* margin-top: -10px; */
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 div.Contact ul {
     display: inline;
     list-style: none;
     float: left;
-    margin-top: -3px;
+    margin-left: 20px;
+    margin-top: -2px;
     font-family: 'Lato', sans-serif;
-}
-div.fContact ul li{
-    display: inline;
 }
 /* call */
 div.Contact div.call ul li{
     display: list-item;
     width: 225px;
     text-align: right;
-    font-weight: 400;
     font-family: "Lato",sans-serif;
-    color: #1f1f1f;
-    line-height: 1;
+    color: #1f1f1fea;
     margin-right: 100px;
 }
-div.footer-top div.about-us ul li{
-    font-size: .9rem;
-    font-weight: 400;
-    font-family: "Lato",sans-serif;
-    color: #1f1f1f;
-    line-height: 1.3;
-    margin: 0 0 0.5rem 0;
+div.Contact div.call ul li h3{
+    margin-bottom: 1px;
+    margin-right: -70px;
+    font-weight: 100;
+}
+div.Contact div.call ul li .fa-phone{
+    color: #515254ce;
+}
+div.Contact div.call ul li a{
+    margin-right: -70px;
+    font-size: 17px;
+    font-weight: bold;
 }
 /* boc_sahana_home */
+div.Contact div.boc_sahana_home{
+    margin-left: -70px;
+    width: 500px;
+}
 div.Contact div.boc_sahana_home img{
     margin-top: 20px;
-    margin-right: 50px;
+    margin-left: 150px;
 }
 /* branch */
 div.Contact div.branch ul {
-    width: 230px;
-    margin-left: 95px;
+    margin-top: 10px;
+    width: 270px;
+    margin-left: -35px;
 }
 div.Contact div.branch ul li{
     display: list-item;
@@ -234,27 +351,17 @@ div.Contact div.branch ul li h4{
     margin: 0 0 0.5rem 0;
 }
 div.Contact div.branch ul li a{
-    font-size: 10px;
+    font-size: 12px;
+    width: 300px;
     color: #808580;
     margin-top: 0.5rem;
     margin-bottom: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*   footer   */
-/* footer-top */
+/*----------------------- 
+         footer
+       footer-top
+-----------------------*/
 div.footer-top {
     height: 220px;
     color: white;
@@ -317,7 +424,10 @@ div.footer-top div.bank-of-ceylon ul li h4{
     font-size: 18px;
 }
 
-/* footer-bottom */
+/*----------------------- 
+        footer
+     footer-bottom
+-----------------------*/
 div.footer-bottom{
     background-color: #ffde00;
     height: 50px;
